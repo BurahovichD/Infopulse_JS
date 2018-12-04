@@ -1,0 +1,5 @@
+function sum(N){
+  return N<=1 ? 1 : N + sum(--N);
+  }
+
+console.log(sum(100));
